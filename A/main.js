@@ -17,7 +17,7 @@ renderer.setPixelRatio(window.devicePixelRatio);
 
 // テクスチャの読み込みと背景設定
 const textureLoader = new THREE.TextureLoader();
-textureLoader.load('back.JPG', (texture) => {
+textureLoader.load('back.jpg', (texture) => {
     scene.background = texture;
 });
 
