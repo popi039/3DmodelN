@@ -111,7 +111,7 @@ loader.load('nice.glb', function (gltf) {
 
 // アニメーションのトリガー関数
 let animationTriggerCount = 0; // アニメーションのトリガー回数を管理する変数
-const maxTriggers = 10; // 最大トリガー回数
+const maxTriggers = 1000; // 最大トリガー回数
 
 function triggerNodAnimation() {
     if (currentAction1 && animationTriggerCount < maxTriggers) {
